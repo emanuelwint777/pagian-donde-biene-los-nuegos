@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Slider with progress bar using setInterval</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="carousel">
+  <div class="progress-bar progress-bar--primary hide-on-desktop">
+    <div class="progress-bar__fill"></div>
+  </div>
+
+<header class="main-post-wrapper">
+  
+  <div class="slides">
+    <article class="main-post main-post--active">
+      <div class="main-post__image">
+        <img src="https://i.ibb.co/yNXRLTq/Imagen-de-Whats-App-2024-12-03-a-las-20-32-20-ac9efe59.jpg" alt="Deseo que todos los regalos que pedistes llegen a tu casa pero mas que nada que aquellos que aun no sabes" loading="lazy" />
+      </div>
+      <div class="main-post__content">
+        <div class="main-post__tag-wrapper">
+          <span class="main-post__tag">ig:</span>
+        </div>
+        <h1 class="main-post__title">La Navidad en México es una celebración muy especial y arraigada en la cultura del país."Navidad es amor, paz y alegría."</h1>
+        <a class="main-post__link" href="#">
+              <span>Y es que ya me vi en una mano mi tamal y en la otra tu manita❤️🎅</span>
+              <svg
+                class="main-post__link-icon main-post__link-icon--arrow"
+                width="37"
+                height="12"
+                viewBox="0 0 37 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0 6H36.0001M36.0001 6L31.0001 1M36.0001 6L31.0001 11"
+                  stroke="white"
+                />
+              </svg>
+            </a>
+      </div>
+    </article>
+    <article class="main-post main-post--not-active">
+      <div class="main-post__image">
+        <img src="https://i.ibb.co/XyHsvVZ/Imagen-de-Whats-App-2024-12-03-a-las-21-22-07-4cecaf59.jpg" alt="Whatt To Watch For in the 2019 Hungarian Grand Prix" loading="lazy" />
+      </div>
+      <div class="main-post__content">
+        <div class="main-post__tag-wrapper">
+          <span class="main-post__tag">Posadas</span>
+        </div>
+        <h1 class="main-post__title">Las posadas en México son una tradición navideña que conmemora el viaje de María y José en busca de un lugar para alojarse en Belén. Se celebran del 16 al 24 diciembre</h1>
+        <a class="main-post__link" href="https://youtu.be/YAGnDFTvu2Y?si=8zAlIQuazPjtbJtn">
+              <svg
+                class="main-post__link-icon main-post__link-icon--play-btn"
+                width="30"
+                height="30"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="10"
+                  cy="10"
+                  r="9"
+                  stroke="#C20000"
+                  stroke-width="2"
+                />
+                <path d="M14 10L8 6V14L14 10Z" fill="white" />
+              </svg>
+              <span class="main-post__link-text">play video</span>
+            </a>
+      </div>
+    </article>
+    <article class="main-post main-post--not-active">
+      <div class="main-post__image">
+        <img src="https://as1.ftcdn.net/v2/jpg/02/43/06/82/500_F_243068232_129BXXQO63TdTZYKtGfyF9gUxPf924vt.jpg" alt="Hamilton wants harder championship fight from Leclerc and
+            Verstappen" loading="lazy" />
+      </div>
+      <div class="main-post__content">
+        <div class="main-post__tag-wrapper">
+          <span class="main-post__tag">Costumbres</span>
+        </div>
+        <h1 class="main-post__title">Se festeja el cumpleaños de la virgen maria con fiestas y su origen remoto en un santuario prehispánico situado en el cerro del Tepeyac, al norte de la ciudad de México, dedicado a la diosa Tonantzin. Hacia 1525, el santuario fue convertido por los frailes evangelizadores en una ermita católica, dedicada a la virgen María. 
+        </h1>
+        <a class="main-post__link" href="#">
+              <span class="main-post__link-text"><a href="file:///C:/Users/emval/OneDrive/navidad%20proyectooo/Scratch%203.0%20is%20here!.html">JUEGO🎮</a></span>
+              <br>
+              <span class="main-post__link-text"><a href="file:///C:/Users/emval/Downloads/Scratch%203.0%20is%20here!.html">Ahorcado☃️</a></span>
+              <br>
+              <span class="main-post__link-text"><a href="file:///C:/Users/emval/Downloads/result%20(2).html">3d✝️</a></span>"</span>
+              <svg
+                class="main-post__link-icon main-post__link-icon--arrow"
+                width="37"
+                height="12"
+                viewBox="0 0 37 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0 6H36.0001M36.0001 6L31.0001 1M36.0001 6L31.0001 11"
+                  stroke="white"
+                />
+              </svg>
+            </a>
+      </div>
+    </article>
+  </div>
+</header>
+
+<div class="posts-wrapper hide-on-mobile">
+  <article class="post post--active">
+    <div class="progress-bar">
+      <div class="progress-bar__fill"></div>
+    </div>
+    <header class="post__header">
+      <span class="post__tag">News</span>
+      <p class="post__published">13 diciembre2024</p>
+    </header>
+    <h2 class="post__title">"Deseo que todos los regalos que pedistes llegen a tu casa pero mas que nada que aquellos que aun no sabes🧧"</h2>
+  </article>
+  <article class="post">
+    <div class="progress-bar">
+      <div class="progress-bar__fill"></div>
+    </div>
+    <header class="post__header">
+      <span class="post__tag">Video</span>
+      <p class="post__published">13 diciembre2024</p>
+    </header>
+    <h2 class="post__title">Si le  entra la risa le entra la felicidad de navidad🎅</h2>
+  </article>
+  <article class="post">
+    <div class="progress-bar">
+      <div class="progress-bar__fill"></div>
+    </div>
+    <header class="post__header">
+      <span class="post__tag">News</span>
+      <p class="post__published">13 diciembre2024</p>
+    </header>
+    <h2 class="post__title">"Si Ella te tiene de la mano no te puedes hundir. Bajo su manto nada hay que temer"
+    </h2>
+  </article>
+</div>
+</div>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
